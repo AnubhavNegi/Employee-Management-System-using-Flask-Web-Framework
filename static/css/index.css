@@ -1,0 +1,33 @@
+html{
+	background-color: #FBFCFC;
+}
+h1{
+	color: white;
+	background-color: blue;
+	font-family: Arial Black;
+	height: 50px;
+}
+h2{
+	font-family: Arial Black;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-family: Arial;
+  position: relative;
+  top: 100px;
+  left: 650px;
+  border-radius: 5px;
+  height: 30px;
+  width: 160px;
+  font-size: 20px;
+}
+
+a:hover, a:active {
+  background-color: red;
+}

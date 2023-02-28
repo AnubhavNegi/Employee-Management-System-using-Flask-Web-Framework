@@ -1,0 +1,19 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>delete record</title>
+    <link href="{{url_for('static',filename='css/delete.css')}}" type="text/css" rel="stylesheet">
+</head>  
+<body>  
+  
+    <h3>Remove Employee from the list</h3>  
+  
+<form action="/deleterecord" method="post">
+<table>  
+<tr><td><label for="email">Employee Email</label></td><td><input class="in" type="email" name="email" id="email" required></td><tr>  
+<tr><td></td><td><input class="bttn" type="submit" value="Submit"></td></tr>
+<tr><td></td><td><a href="/index">Go back to Home Page</a></td></tr> 
+</table>  
+</form>  
+</body>  
+</html>

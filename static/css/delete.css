@@ -1,0 +1,48 @@
+html{
+	background-color: WhiteSmoke;
+}
+table{
+	border-spacing: 10px;
+	position: relative;
+	top: 50px;
+}
+h3{
+	font-family: Arial;
+	font-size: 40px;
+	margin: 0;
+	color: white;
+	background-color: MediumSlateBlue;
+}
+label{
+	font-family: Arial;
+	font-size: 20px;
+}
+.in{
+	font-size: 20px;
+	font-family: Arial;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+.bttn{
+	padding: 5px 10px;
+	font-family: Arial;
+	font-size: 18px;
+	color: white;
+	background-color: tomato;
+	border: 1px solid tomato;
+	border-radius: 5px;
+}
+a{
+	background-color: #f44336;
+  	color: white;
+  	padding: 14px 25px;
+	font-family: Arial;
+	font-size: 20px;
+  	text-align: center; 
+  	text-decoration: none;
+  	display: inline-block;
+	position: relative;
+	top: 20px;
+}

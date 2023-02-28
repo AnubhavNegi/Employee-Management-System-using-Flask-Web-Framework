@@ -1,0 +1,27 @@
+html{
+	background-color: WhiteSmoke;
+}
+td{
+	padding: 25px;
+}
+h3{
+	font-family: Arial;
+	font-size: 40px;
+	margin: 0;
+	color: white;
+	background-color: orange;
+}
+table{
+	position: relative;
+	top: 20px;
+}
+a{
+	background-color: #f44336;
+  	color: white;
+  	padding: 14px 25px;
+	font-family: Arial;
+	font-size: 20px;
+  	text-align: center; 
+  	text-decoration: none;
+  	display: inline-block;
+}

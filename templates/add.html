@@ -1,0 +1,19 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Add Employee</title>  
+    <link href="{{url_for('static',filename='css/add.css')}}" rel="stylesheet">
+</head>  
+<body>  
+    <h2>Employee Information</h2>   
+    <form action = "/savedetails" method="post">  
+    <table>  
+        <tr><td class="lsize">Name</td><td><input class="insize" type="text" name="name" required></td></tr>  
+        <tr><td class="lsize">Email</td><td><input class="insize" type="email" name="email" required></td></tr>  
+        <tr><td class="lsize">Address</td><td><input class="insize" type="text" name="address" required></td></tr>  
+        <tr><td></td><td><input class="bttn" type="submit" value="Submit"></td></tr> 
+	<tr><td></td><td><a href="/index">Go back to Home Page</a></td></tr> 
+    </table>  
+    </form>  
+</body>  
+</html>  
